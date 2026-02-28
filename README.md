@@ -53,6 +53,14 @@ In this project:
 - Recall: ~96%
 - F1 Score: ~91%
 
+## 📊 App Features
+
+✔ Model performance metrics display
+✔ Confusion matrix visualization
+✔ Classification report
+✔ Interactive user input form
+✔ Real-time churn prediction
+
 This shows strong predictive performance with high recall for churn detection.
 
 ---
