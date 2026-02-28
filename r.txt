@@ -1,0 +1,22 @@
+customerID	Unique ID for each customer
+gender	Customer’s gender (Male/Female)
+SeniorCitizen	Whether the customer is a senior (1 = Yes, 0 = No)
+Partner	Does the customer have a partner? (Yes/No)
+Dependents	Does the customer have dependents (kids or others)? (Yes/No)
+tenure	How many months the customer has stayed with the company
+PhoneService	Does the customer have phone service? (Yes/No)
+MultipleLines	Does the customer have multiple phone lines?
+InternetService	Type of internet service (DSL, Fiber optic, or None)
+OnlineSecurity	Does the customer have online security service?
+OnlineBackup	Does the customer use online backup service?
+DeviceProtection	Does the customer use device protection service?
+TechSupport	Does the customer have tech support service?
+StreamingTV	Does the customer stream TV using the service?
+StreamingMovies	Does the customer stream movies using the service?
+Contract	Type of contract (Month-to-month, One year, Two year)
+PaperlessBilling	Does the customer use paperless billing? (Yes/No)
+PaymentMethod	How the customer pays (e.g., electronic check, credit card)
+MonthlyCharges	How much the customer is charged per month
+TotalCharges	Total amount the customer has been charged
+Churn	Target column – Did the customer leave? (Yes/No)
+

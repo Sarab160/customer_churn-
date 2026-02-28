@@ -1,0 +1,7 @@
+cf=confusion_matrix(y_test,dtc.predict(x_test))
+print("Precision Score",precision_score(y_test,dtc.predict(x_test)))
+print("Recall Score",recall_score(y_test,dtc.predict(x_test)))
+print("F1 Score",f1_score(y_test,dtc.predict(x_test)))
+print(classification_report(y_test, dtc.predict(x_test)))
+sns.heatmap(cf,annot=True)
+plt.show()
